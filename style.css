@@ -1,0 +1,68 @@
+.myimage{
+   width: 300px;
+   height: auto;
+   border: 10px;
+   border-radius: 10px;
+   box-shadow: 4px 4px 10px rgb(75, 42, 42);
+   margin: 20px auto;
+   display: block;
+   filter: grayscale(50%);
+}
+.myimage:hover{
+   transform: scale(1.05); /* Zoom on hover */
+    transition: transform 0.3s ease;
+}
+h2{
+
+   /*Font Styling*/
+
+   font-family: Calibri;
+   font-size: larger;
+   font-weight: bold;
+   font-style: initial;
+
+   /* Text Appearance */
+
+   color: #070808;
+   text-transform: capitalize;
+   letter-spacing: 2px;
+   word-spacing: 4px;
+   line-height: 1.5;
+
+   /*Text Alignment and Layout*/
+
+   text-align: center;
+   text-indent: 30px;
+   white-space: nowrap;
+
+   /* Shadow and Effects */
+
+   text-shadow: 3px 3px 5px gray;
+   opacity: 0.8;
+
+   /* Background */
+
+   background-color: beige;
+   background-image: none;
+
+}
+body {
+   background-color: #0f0f0f;
+}
+.first{
+   font-size: large;
+   color: rgb(241, 225, 204);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   text-shadow: 3px 3px 5px rgb(100, 100, 100);
+   word-spacing: 3px;
+}
+.first {
+  display: inline-block; /* Needed for transform */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.first:hover {
+  transform: scale(1.1); /* Slightly enlarges it */
+  color: #d6d5d4;        /* Optional: change color */
+}
